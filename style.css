@@ -1,6 +1,5 @@
 * {
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -9,10 +8,9 @@
 header {
   height: 69px;
   width: 100%;
-  max-width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   display: inline-flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -35,4 +33,60 @@ nav a {
 
 nav span {
   padding: 0px 10px;
+}
+
+.firstsection {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-content: center;
+  flex-shrink: 1;
+  z-index: 1;
+  background-image: url("./resources/images/img-mission-background.jpg");
+  flex-direction: column;
+  justify-content: center;
+}
+
+.missionphoto {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamonthtext {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.secondsection {
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex: 1 1 auto;
+}
+
+.teatype {
+  display: flex;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.teatype img {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
 }
